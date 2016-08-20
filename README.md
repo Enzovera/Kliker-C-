@@ -2,5 +2,13 @@
 Simple clicker game in C# WPF
 
 
-# Pozdrawiam Junior .Net POLSL
+## Wykorzystane:
+* Obsługa wyjątków
+* Interfejsy
+* Generyczność
+* Praca z strumieniami
+* Interfejs Graficzny
+
+
+Praca zaliczeniowa na zajęcia grupy Junior .Net POLSL
 ~Patryk Gut
