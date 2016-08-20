@@ -381,11 +381,6 @@ namespace Kliker
            else { o4_100.IsEnabled = true; }
        }
 
-       private void music_Click(object sender, RoutedEventArgs e)
-       {
-
-       }
-
        private void u1_1_Click(object sender, RoutedEventArgs e)
        {
            upgradeslist.Upgradelist[0].setActive();
