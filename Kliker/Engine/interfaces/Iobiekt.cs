@@ -9,7 +9,7 @@ namespace Kliker
     interface Iobiekt
     {
         void add(player player, int times);
-        void setAmount(int a);
+        void setAmount(player player, int a);
         string dprice(int times);
         double Dprice(int times);
     }

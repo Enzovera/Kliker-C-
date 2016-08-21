@@ -59,9 +59,10 @@ namespace Kliker
             double _suma = Dprice(times);
             return String.Format("Koszt: {0} klików", _suma.ToString());
         }
-        public void setAmount(int a)
+        public void setAmount(player player, int a)
         {
             amount = a;
+            player.addcps(value*a);
         }
     }
 }

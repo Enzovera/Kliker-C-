@@ -18,9 +18,6 @@ using System.Windows.Shapes;
 
 namespace Kliker
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public static bool clicked;
@@ -144,10 +141,10 @@ namespace Kliker
                if (Convert.ToInt16(load[5]) == _control)
                {
                    player.setCliks(Convert.ToDouble(load[0]));
-                   obiekt1.setAmount(Convert.ToInt16(load[1]));
-                   obiekt2.setAmount(Convert.ToInt16(load[2]));
-                   obiekt3.setAmount(Convert.ToInt16(load[3]));
-                   obiekt4.setAmount(Convert.ToInt16(load[4]));
+                   obiekt1.setAmount(player, Convert.ToInt16(load[1]));
+                   obiekt2.setAmount(player, Convert.ToInt16(load[2]));
+                   obiekt3.setAmount(player, Convert.ToInt16(load[3]));
+                   obiekt4.setAmount(player, Convert.ToInt16(load[4]));
                    if (load[6] == "1") 
                    {
                        upgradeslist.Upgradelist[0].setActive();
